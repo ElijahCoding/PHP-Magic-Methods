@@ -2,10 +2,12 @@
 
 class SomeClass
 {
-    public function __construct()
+    public function __set_state()
     {
-        var_dump('Run');
+        //
     }
 }
 
 $class = new SomeClass();
+
+var_export($class);
